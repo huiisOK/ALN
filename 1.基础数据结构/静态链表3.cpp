@@ -1,9 +1,10 @@
+//æ´›è°·1996é¢˜
 #include<iostream>
 using namespace std;
 const int N=105;
 int nodes[N];
 int main(){
-	int n,m;//n±íÊ¾¸öÊý£¬m±íÊ¾¼¸¸ö¼¸¸ö 
+	int n,m;//nè¡¨ç¤ºä¸ªæ•°ï¼Œmè¡¨ç¤ºå‡ ä¸ªå‡ ä¸ª 
 	cin>>n>>m;
 	for(int i=1;i<=n;i++){
 		nodes[i]=i+1;
